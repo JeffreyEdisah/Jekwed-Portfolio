@@ -1,28 +1,71 @@
 
 html {
-    background-color:rgb(62, 62, 111);
+    background-color:rgb(28, 17, 30);
     color: white;
 }
 
 body {
-    width: 90vw;
-    display: grid;
+    position: center;
+    margin: auto;
 }
 
-header{
+header {
     background-color: rgba(2, 2, 16, 0.271);
     width: 100vw;
     height: 5vw;
     top: 0;
     position: fixed;
-    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: auto;
+}
+
+nav ul li {
+    background-color: blueviolet;
+    width: 10vw;
+    height: 5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.current {
+    background-color: rgb(44, 12, 74);
+}
+
+h1 {
+    margin-top: 6vw;
+    margin-left: 3vw;
+}
+
+a:visited {
+    color : white; 
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
 }
 
 .presentation {
     width: 30%;
+    min-width: 300px;
     height: 30%;
-    padding: 2%;
-    margin: 1%;
+    padding: 1%;
+    margin: auto;
 }
 
-
+footer{
+    background-color: rgba(5, 5, 49, 0.271);
+    margin-bottom: 0;
+    border-top: solid 1px white;
+    height: 10vw;
+}
